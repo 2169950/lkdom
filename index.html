@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <title>灵空二级域名分发站公告</title>
     <style>
+        /* 设置全屏背景图片 */
+body, .full-screen-background {
+    background-image: url('bj.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh; /* 使用视口高度 */
+    margin: 0;
+}
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -36,6 +44,18 @@
             bottom: 0;
             width: 100%;
         }
+        /* 设置logo和官网按钮的样式 */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.official-site-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
         /* Modal styles */
         .modal {
             display: none; /* Hidden by default */
@@ -95,7 +115,19 @@
 </div>
 
     <div class="header">
+        <div class="full-screen-background">
+    <!-- Logo -->
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
         <h1>灵空二级域名分发站公告</h1>
+    <!-- 官网按钮 -->
+    <div class="official-site-btn">
+        <a href="http://www.stcpic.cn" target="_blank">
+            <h3>官网</h3>
+        </a>
+    </div>
+</div>
     </div>
     <div class="container">
         <div class="content">
